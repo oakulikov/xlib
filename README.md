@@ -3,6 +3,7 @@ xlib is a Lua extensions library
 
 ## usage example
 create a shared library, e.g.:
+*please, note*: certainly you need to fix path to Lua headers in xlib.h
 ```bash
 $ gcc -dynamiclib -o xlib.so xlib.c -llua
 ```
